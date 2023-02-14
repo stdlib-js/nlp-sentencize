@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@deno/mod.js';
+import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@v0.0.1-deno/mod.js';
 ```
 
 #### sentencize( str )
@@ -65,7 +65,7 @@ out = sentencize( str );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@deno/mod.js';
+import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@v0.0.1-deno/mod.js';
 
 var sentences = [
     'Dr. John Smith, Jr. who is a renowned expert in the field of Artificial Intelligence, and who has published numerous papers on the subject, e.g. "Machine Learning for Dummies", "The Future of AI", etc., gave a lecture at the annual AI conference yesterday and stated that AI technology is rapidly advancing, but we must be cautious of its potential consequences such as job displacement, privacy concerns, and ethical dilemmas.',
