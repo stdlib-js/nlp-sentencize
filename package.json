@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/nlp-tokenize": "^0.0.10",
+    "@stdlib/nlp-tokenize": "^0.0.11",
     "@stdlib/string-base-trim": "^0.0.2"
   },
   "devDependencies": {
