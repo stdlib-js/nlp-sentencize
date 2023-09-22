@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-sentencize",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Split a string into an array of sentences.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/nlp-tokenize": "^0.0.11",
-    "@stdlib/string-base-trim": "^0.0.2"
+    "@stdlib/assert-is-string": "^0.1.0",
+    "@stdlib/nlp-tokenize": "^0.1.0",
+    "@stdlib/string-base-trim": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/assert-is-array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/string-from-code-point": "^0.0.9",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
