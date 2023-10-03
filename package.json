@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-sentencize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Split a string into an array of sentences.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-string": "^0.1.0",
-    "@stdlib/nlp-tokenize": "^0.1.0",
-    "@stdlib/string-base-trim": "^0.1.0"
+    "@stdlib/assert-is-string": "^0.1.1",
+    "@stdlib/nlp-tokenize": "^0.1.1",
+    "@stdlib/string-base-trim": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.0",
