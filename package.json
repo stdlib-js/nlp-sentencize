@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/string-from-code-point": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
