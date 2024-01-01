@@ -41,38 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/nlp-sentencize
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sentencize = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var sentencize = require( 'path/to/vendor/umd/nlp-sentencize/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sentencize;
-})();
-</script>
+var sentencize = require( '@stdlib/nlp-sentencize' );
 ```
 
 #### sentencize( str )
@@ -99,13 +91,8 @@ out = sentencize( str );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var sentencize = require( '@stdlib/nlp-sentencize' );
 
 var sentences = [
     'Dr. John Smith, Jr. who is a renowned expert in the field of Artificial Intelligence, and who has published numerous papers on the subject, e.g. "Machine Learning for Dummies", "The Future of AI", etc., gave a lecture at the annual AI conference yesterday and stated that AI technology is rapidly advancing, but we must be cautious of its potential consequences such as job displacement, privacy concerns, and ethical dilemmas.',
@@ -124,11 +111,6 @@ var bool = ( out.length === 5 );
 
 bool = ( out[ 0 ] === sentences[ 0 ] );
 // returns true
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -169,7 +151,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
