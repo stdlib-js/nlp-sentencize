@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-is-string": "^0.2.1",
     "@stdlib/nlp-tokenize": "^0.2.1",
-    "@stdlib/string-base-trim": "^0.2.2"
+    "@stdlib/string-base-trim": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.2.1",
