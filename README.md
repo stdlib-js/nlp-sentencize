@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/nlp-sentencize/tags). For example,
+
+```javascript
 import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@v0.2.2-deno/mod.js';
 ```
 
@@ -76,7 +81,7 @@ out = sentencize( str );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@v0.2.2-deno/mod.js';
+import sentencize from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-sentencize@deno/mod.js';
 
 var sentences = [
     'Dr. John Smith, Jr. who is a renowned expert in the field of Artificial Intelligence, and who has published numerous papers on the subject, e.g. "Machine Learning for Dummies", "The Future of AI", etc., gave a lecture at the annual AI conference yesterday and stated that AI technology is rapidly advancing, but we must be cautious of its potential consequences such as job displacement, privacy concerns, and ethical dilemmas.',
