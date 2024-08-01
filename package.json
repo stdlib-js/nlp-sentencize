@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/nlp-tokenize": "^0.2.1",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/nlp-tokenize": "^0.2.2",
     "@stdlib/string-base-trim": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/string-from-code-point": "^0.2.1",
+    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/string-from-code-point": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
