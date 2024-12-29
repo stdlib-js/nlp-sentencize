@@ -123,6 +123,12 @@ bool = ( out[ 0 ] === sentences[ 0 ] );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/nlp-tokenize`][@stdlib/nlp/tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -198,6 +204,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/nlp-sentencize/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/nlp-sentencize/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/nlp/tokenize]: https://github.com/stdlib-js/nlp-tokenize
+
+<!-- </related-links> -->
 
 </section>
 
