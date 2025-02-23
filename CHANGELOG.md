@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-22)
+## Unreleased (2025-02-23)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381)
 -   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380)
 
 </section>
@@ -20,9 +21,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3013](https://github.com/stdlib-js/stdlib/issues/3013)
+[#3013](https://github.com/stdlib-js/stdlib/issues/3013), [#3017](https://github.com/stdlib-js/stdlib/issues/3017)
 
 </section>
 
@@ -34,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - **fix:** ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381) _(by Philipp Burckhardt)_
 -   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - **fix:** do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380) _(by Philipp Burckhardt)_
 -   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
 
