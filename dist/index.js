@@ -1,5 +1,0 @@
-"use strict";var l=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var R=l(function(P,n){
-var h=require('@stdlib/assert-is-string/dist').isPrimitive,A=require('@stdlib/nlp-tokenize/dist'),v=require('@stdlib/string-base-trim/dist'),_=/^[a-z]+$/,c=/^[A-Z][a-z]{0,4}$/,g=/^([A-Z]\.)*[A-Z]$/,p=/^[0-9]$/,E=/^[{[(<:;"'”`]/,f=/[})\]>:;"'”`]$/,s=/^["'`]$/;function I(r,e){var u,a,t=e-1,i=e+1;if(a=r[e],s.test(a)&&e>0&&(r[t]==="."||r[t]==="!"||r[t]==="?")){if(i=e+1,i<r.length){for(;i<r.length&&r[i]===" ";)i+=1;if(i<r.length&&(u=r[i],_.test(u)))return!1}return!0}return a==="."&&!c.test(r[t])&&!g.test(r[t])&&!p.test(r[t])&&!E.test(r[t])&&!f.test(r[i])||(a==="!"||a==="?")&&!E.test(r[t])&&!f.test(r[i])&&r[i]!=="!"&&r[i]!=="?"}function S(r){var e,u,a,t;if(!h(r))throw new TypeError("invalid argument. Must provide a string. Value: `"+r+"`.");for(u=A(r,!0),e="",a=[],t=0;t<u.length;t++)e+=u[t],I(u,t)&&(a.push(v(e)),e="");return e!==""&&a.push(v(e)),a}n.exports=S
-});var $=R();module.exports=$;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
